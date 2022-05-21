@@ -14,7 +14,13 @@
         android:theme="@style/Theme.IT"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivityQA"
+            android:name=".MainActivityJava"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityQAInside"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityThemes"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
