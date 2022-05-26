@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroundlesson"
+    android:background="#5C5282A0"
     tools:context=".MainActivityQAInside">
 
     <LinearLayout
@@ -16,11 +16,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/button6"
+        <ImageView
+            android:id="@+id/qa_view"
             android:layout_width="match_parent"
-            android:layout_height="257dp"
-            android:text="Button" />
+            android:layout_height="200dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/ic_logoqa" />
 
         <LinearLayout
             android:layout_width="match_parent"
