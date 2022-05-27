@@ -28,6 +28,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <HorizontalScrollView
+            android:id="@+id/cap"
             android:layout_width="match_parent"
             android:layout_height="214dp">
 
@@ -46,6 +47,7 @@
                     android:background="#65FFFFFF"
                     android:contentDescription="@string/startText3"
                     android:elevation="10dp"
+                    android:onClick="startQa"
                     android:scaleType="centerInside"
                     app:srcCompat="@drawable/ic_logoqa"
                     tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
