@@ -11,14 +11,12 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity
 {
-    ImageView iv;
-
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        iv = (ImageView) findViewById(R.id.start_image_view);
+        ImageView iv = findViewById(R.id.start_image_view);
         Animation animation = AnimationUtils.loadAnimation(this, R.anim.start_anim);
         iv.startAnimation(animation);
     }
@@ -27,7 +25,7 @@ public class MainActivity extends AppCompatActivity
     {
         Intent intent = new Intent(this, MainActivityThemes.class);
         startActivity(intent);
-        finish();
+        //finish();
     }
 
 }

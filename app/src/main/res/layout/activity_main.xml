@@ -8,73 +8,94 @@
     android:visibility="visible"
     tools:context=".MainActivity">
 
-    <ScrollView
+    <ImageView
+        android:id="@+id/start_image"
         android:layout_width="wrap_content"
-        android:layout_height="474dp"
-        android:theme="@style/Theme.IT"
-        android:translationY="20dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:alpha="0.2"
+        android:background="@drawable/ic_logojhtext"
+        android:contentDescription="@string/todo"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,ImageContrastCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <ScrollView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:theme="@style/Theme.IT">
 
             <TextView
                 android:id="@+id/start_text_view"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:text="@string/start_motivation_text"
                 android:textAlignment="center"
                 android:textColor="#154177"
                 android:textSize="34sp"
                 android:textStyle="normal|bold|italic" />
-        </LinearLayout>
-    </ScrollView>
+        </ScrollView>
 
-    <ImageView
-        android:id="@+id/start_image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:alpha="0.2"
-        android:background="@drawable/ic_logojhtext"
-        android:contentDescription="@string/todo"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="@+id/start_image_view"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints,ImageContrastCheck" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
 
-    <ImageView
-        android:id="@+id/start_image_view"
-        android:layout_width="417dp"
-        android:layout_height="230dp"
-        android:contentDescription="@string/startbutton"
-        android:onClick="startApp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ic_logojhboll"
-        tools:ignore="ImageContrastCheck" />
+            <ImageView
+                android:id="@+id/start_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/startbutton"
+                android:onClick="startApp"
+                app:srcCompat="@drawable/ic_logojhboll"
+                tools:ignore="ImageContrastCheck" />
 
-    <TextView
-        android:id="@+id/start_text"
-        android:layout_width="157dp"
-        android:layout_height="69dp"
-        android:text="@string/start"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="#FFFFFF"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="@+id/start_image_view"
-        app:layout_constraintTop_toTopOf="@+id/start_image_view"
-        app:layout_constraintVertical_bias="0.577" />
+            <TextView
+                android:id="@+id/start_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#B3E5FC"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.5" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
