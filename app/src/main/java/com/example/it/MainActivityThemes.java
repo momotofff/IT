@@ -1,13 +1,20 @@
 package com.example.it;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.HorizontalScrollView;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivityThemes extends AppCompatActivity
 {
+    HorizontalScrollView iv;
     int[] pushRandom = {R.string.push_random0, R.string.push_random1, R.string.push_random2, R.string.push_random3,
                         R.string.push_random4, R.string.push_random5, R.string.push_random6, R.string.push_random7,
                         R.string.push_random8, R.string.push_random9, R.string.push_random10, R.string.push_random11,
@@ -28,5 +35,15 @@ public class MainActivityThemes extends AppCompatActivity
     {
             Toast toast = Toast.makeText(MainActivityThemes.this, "В разработке", Toast.LENGTH_SHORT);
             toast.show();
+    }
+
+    public void startQa(View view)
+    {
+        ImageView iv = findViewById(R.id.qa_Button);
+        Animation animation = AnimationUtils.loadAnimation(this,R.anim.up_scale);
+        iv.startAnimation(animation);
+        Intent intent = new Intent(this, MainActivityQAInside.class);
+
+        startActivity(intent);
     }
 }
