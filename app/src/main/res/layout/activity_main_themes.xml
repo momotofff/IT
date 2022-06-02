@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/themes_image"
-        android:layout_width="621dp"
-        android:layout_height="765dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:alpha="0.2"
         android:background="@drawable/ic_logojhtext"
         android:contentDescription="@string/todo"
@@ -42,6 +42,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_weight="1"
                 android:background="#65FFFFFF"
+                android:contentDescription="@string/empty_string"
                 android:elevation="10dp"
                 android:scaleType="centerInside"
                 android:transitionName="example_transition"
@@ -49,21 +50,21 @@
                 tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
 
             <ImageButton
-                android:id="@+id/java_button"
+                android:id="@+id/java_Button"
                 style="@style/Widget.AppCompat.ImageButton"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="10dp"
                 android:layout_weight="1"
                 android:background="#65FFFFFF"
+                android:contentDescription="@string/empty_string"
                 android:elevation="10dp"
-                android:onClick="buttonStartInDeveloping"
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/ic_logojava"
                 tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
 
             <ImageButton
-                android:id="@+id/putterns_button"
+                android:id="@+id/patterns_button"
                 style="@style/Widget.AppCompat.ImageButton"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -71,8 +72,8 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:background="#65FFFFFF"
+                android:contentDescription="@string/empty_string"
                 android:elevation="10dp"
-                android:onClick="buttonStartInDeveloping"
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/ic_logopatterns"
                 tools:ignore="DuplicateSpeakableTextCheck" />
@@ -95,7 +96,7 @@
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
                     android:textColor="#154177"
-                    android:textSize="34sp" />
+                    android:textSize="24sp" />
             </LinearLayout>
         </ScrollView>
     </LinearLayout>
