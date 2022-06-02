@@ -5,8 +5,7 @@
                                         тогда как программисты — это умные люди, у которых талант делать невероятные глупости. Короче, они нашли друг друга.
                                                                      Bill Bryson</string>
     <string name="start">НАЧАТЬ</string>
-    <string name="startText">В общем тут будет немного текста о том как пиздато то что вы решили связать свою жизнь с IT и тому подобное. В планах набросать с пяток разных, что бы воспроизводились рандомно. Нажмите начать чтобы начать)</string>
-    <string name="startText3">конечно можно сказать что если бы не вот это вот все то ничего бы и не это самое</string>
+    <string name="empty_string">Пустая строка</string>
     <string name="startbutton">start</string>
     <string name="todo">TODO</string>
     <string-array name="tips_of_the_day">
