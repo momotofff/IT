@@ -17,6 +17,8 @@
         android:background="@drawable/ic_logojhtext"
         android:contentDescription="@string/todo"
         android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints,ImageContrastCheck" />
 
@@ -64,7 +66,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:contentDescription="@string/startbutton"
-                android:onClick="startApp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:srcCompat="@drawable/ic_logojhboll"
                 tools:ignore="ImageContrastCheck" />
 

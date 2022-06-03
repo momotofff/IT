@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#5C5282A0"
+    android:visibility="visible"
     tools:context=".MainActivityQAInside">
 
     <ImageView
-        android:id="@+id/themes_image2"
-        android:layout_width="0dp"
+        android:id="@+id/themes_image"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
         android:alpha="0.2"
         android:background="@drawable/ic_logojhtext"
-        android:contentDescription="@string/todo"
+        android:contentDescription="@string/empty_string"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,11 +22,9 @@
         tools:ignore="MissingConstraints,ImageContrastCheck" />
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -36,88 +34,37 @@
             android:layout_height="wrap_content"
             android:background="#00FFFFFF"
             android:contentDescription="@string/empty_string"
+            android:scaleType="centerInside"
             android:transitionName="example_transition"
             app:srcCompat="@drawable/ic_logoqa"
             tools:ignore="ImageContrastCheck" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
             android:orientation="vertical">
 
-            <LinearLayout
+            <ImageButton
+                android:id="@+id/imageButton6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:contentDescription="@string/empty_string"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_logodictionary"
+                android:layout_weight="2"
+                tools:ignore="DuplicateSpeakableTextCheck" />
 
-                <CheckBox
-                    android:id="@+id/checkBox"
-                    android:layout_width="50dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="CheckBox" />
-
-                <Button
-                    android:id="@+id/button7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="100dp"
-                    android:layout_weight="1"
-                    android:text="Button" />
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <LinearLayout
+            <ImageButton
+                android:id="@+id/imageButton10"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:contentDescription="@string/empty_string"
+                android:scaleType="centerInside"
+                android:layout_weight="2"
+                app:srcCompat="@drawable/ic_logodictionary" />
 
-                <CheckBox
-                    android:id="@+id/checkBox2"
-                    android:layout_width="50dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="CheckBox" />
-
-                <Button
-                    android:id="@+id/button8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="100dp"
-                    android:layout_weight="1"
-                    android:text="Button" />
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <CheckBox
-                    android:id="@+id/checkBox4"
-                    android:layout_width="50dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="CheckBox" />
-
-                <Button
-                    android:id="@+id/button11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="100dp"
-                    android:layout_weight="1"
-                    android:text="Button" />
-            </LinearLayout>
         </LinearLayout>
 
     </LinearLayout>
-</LinearLayout>
+</RelativeLayout>

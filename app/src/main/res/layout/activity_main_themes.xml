@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#5C5282A0"
+    android:visibility="visible"
     tools:context=".MainActivityThemes">
 
     <ImageView
@@ -13,7 +14,7 @@
         android:layout_height="match_parent"
         android:alpha="0.2"
         android:background="@drawable/ic_logojhtext"
-        android:contentDescription="@string/todo"
+        android:contentDescription="@string/empty_string"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
-            android:layout_weight="5"
+            android:layout_weight="4"
             android:orientation="horizontal">
 
             <ImageButton
@@ -41,7 +42,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="10dp"
                 android:layout_weight="1"
-                android:background="#65FFFFFF"
+                android:background="#3EFFFFFF"
                 android:contentDescription="@string/empty_string"
                 android:elevation="10dp"
                 android:scaleType="centerInside"
@@ -56,7 +57,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="10dp"
                 android:layout_weight="1"
-                android:background="#65FFFFFF"
+                android:background="#3EFFFFFF"
                 android:contentDescription="@string/empty_string"
                 android:elevation="10dp"
                 android:scaleType="centerInside"
@@ -71,7 +72,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
-                android:background="#65FFFFFF"
+                android:background="#3EFFFFFF"
                 android:contentDescription="@string/empty_string"
                 android:elevation="10dp"
                 android:scaleType="centerInside"
