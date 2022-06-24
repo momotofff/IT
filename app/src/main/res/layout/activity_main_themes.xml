@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="#5C5282A0"
     android:visibility="visible"
-    tools:context=".MainActivityThemes">
+    tools:context=".MainActivityThemes"
+    >
 
     <ImageView
         android:id="@+id/themes_image"
@@ -22,6 +23,7 @@
         tools:ignore="MissingConstraints,ImageContrastCheck" />
 
     <LinearLayout
+        android:id="@+id/qw"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -43,7 +45,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_weight="1"
                 android:background="#3EFFFFFF"
-                android:contentDescription="@string/empty_string"
+                android:contentDescription="@string/todo"
                 android:elevation="10dp"
                 android:scaleType="centerInside"
                 android:transitionName="example_transition"
@@ -58,7 +60,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_weight="1"
                 android:background="#3EFFFFFF"
-                android:contentDescription="@string/empty_string"
+                android:contentDescription="@string/todo"
                 android:elevation="10dp"
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/ic_logojava"
@@ -73,7 +75,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:background="#3EFFFFFF"
-                android:contentDescription="@string/empty_string"
+                android:contentDescription="@string/todo"
                 android:elevation="10dp"
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/ic_logopatterns"
