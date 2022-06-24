@@ -5,7 +5,7 @@
                                         тогда как программисты — это умные люди, у которых талант делать невероятные глупости. Короче, они нашли друг друга.
                                                                      Bill Bryson</string>
     <string name="start">НАЧАТЬ</string>
-    <string name="empty_string">Пустая строка</string>
+    <string name="empty_string"> </string>
     <string name="startbutton">start</string>
     <string name="todo">TODO</string>
     <string-array name="tips_of_the_day">
@@ -58,7 +58,8 @@
 
         <item>Миф о тестировании №6 (Тестировщики ответственны за качество продукта). Это очень распространенное заблуждение.
                                 В обязанности тестировщиков входит нахождение багов и передача информации о них заинтересованным участникам процесса разработки,
-                                после чего последние принимают решение о том, что с этими багами дальше делать – будут ли они исправлены или отложены.</item>\
+                                после чего последние принимают решение о том, что с этими багами дальше делать – будут ли они исправлены или отложены.</item>
+        \
 
         <item>Миф о тестировании №7 (Единственная задача тестировщика – поиск багов). Из предыдущих разделов Вы уже должны были понять
                                 что это далеко не так. В то время как разработчики работают, как правило, с достаточно узкой функциональной областью,
@@ -128,4 +129,20 @@
                                 приложение или программа при их прохождении.</item>
     </string-array>
     <string name="in_development">В разработке</string>
+    <string name="TestGoals">Цели тестирования</string>
+    <string name="TestersVocabulary">Словарь тестировщика</string>
+    <string name="costOfDefects">Сколько стоят дефекты</string>
+    <string name="PsychologyOfTesting">Психология тестирования</string>
+    <string name="TestingPrinciples">Принципы тестирования</string>
+    <string name="WhereDoErrorsComeFrom">Откуда берутся ошибки</string>
+    <string name="WhoIsTesting">Кто занимается тестированием</string>
+    <string name="startAndExit">Когда начинать и заканчивать</string>
+    <string name="WhatIsSoftwareTesting">Что такое тестирование ПО</string>
+    <string name="testGoals">Цели тестирования</string>
+    <string name="fundamentalProcess">Фундаментальный процесс</string>
+    <string name="webTesting">Тестирование веб-проектов</string>
+    <string name="roleOfTesting">Роль тестирования</string>
+    <string name="whyTestingIsNecessary">Почему тесты необходимы</string>
+    <string name="softwareQuality">Качество ПО (ISOIEC 25010)</string>
+    <string name="verificationAndValidation">Верификация и валидация</string>
 </resources>
