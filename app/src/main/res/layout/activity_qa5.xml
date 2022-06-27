@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5C5282A0"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".QA5">
+
+        <ImageView
+            android:id="@+id/themes_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.2"
+            android:background="@drawable/ic_logojhtext"
+            android:contentDescription="@string/empty_string"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints,ImageContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="@id/themes_image"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/qa_view_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#00FFFFFF"
+                android:contentDescription="@string/empty_string"
+                android:scaleType="centerInside"
+                android:transitionName="example_transition5"
+                app:srcCompat="@drawable/ic_types_of_testing2"
+                tools:ignore="ImageContrastCheck" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/checkBox35у456"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:minWidth="32dp"
+                            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                        <TextView
+                            android:id="@+id/textView56у75"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:layout_weight="1"
+                            android:background="#3EFFFFFF"
+                            android:contentDescription="@string/in_development"
+                            android:elegantTextHeight="true"
+                            android:elevation="10dp"
+                            android:scaleType="centerInside"
+                            android:text="@string/manualAndAutomated"
+                            android:textAlignment="center"
+                            android:textColor="#234B65"
+                            android:textSize="24sp"
+                            android:textStyle="bold|italic"
+                            app:autoSizeTextType="none"
+                            tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/checkBox35уd456"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:minWidth="32dp"
+                            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                        <TextView
+                            android:id="@+id/textView556у75"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:layout_weight="1"
+                            android:background="#3EFFFFFF"
+                            android:contentDescription="@string/in_development"
+                            android:elegantTextHeight="true"
+                            android:elevation="10dp"
+                            android:scaleType="centerInside"
+                            android:text="@string/staticAndDynamicTesting"
+                            android:textAlignment="center"
+                            android:textColor="#234B65"
+                            android:textSize="24sp"
+                            android:textStyle="bold|italic"
+                            app:autoSizeTextType="none"
+                            tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/checkBox35456"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:minWidth="32dp"
+                            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                        <TextView
+                            android:id="@+id/textView5675"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:layout_weight="1"
+                            android:background="#3EFFFFFF"
+                            android:contentDescription="@string/in_development"
+                            android:elegantTextHeight="true"
+                            android:elevation="10dp"
+                            android:scaleType="centerInside"
+                            android:text="@string/whiteBlackGreyBox"
+                            android:textAlignment="center"
+                            android:textColor="#234B65"
+                            android:textSize="24sp"
+                            android:textStyle="bold|italic"
+                            app:autoSizeTextType="none"
+                            tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
