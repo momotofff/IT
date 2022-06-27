@@ -8,7 +8,7 @@
     android:background="#5C5282A0"
     android:orientation="vertical"
     android:visibility="visible"
-    tools:context=".QA1">
+    tools:context=".QA4">
 
         <ImageView
             android:id="@+id/themes_image"
@@ -38,8 +38,8 @@
                 android:background="#00FFFFFF"
                 android:contentDescription="@string/empty_string"
                 android:scaleType="centerInside"
-                android:transitionName="example_transition1"
-                app:srcCompat="@drawable/ic_basics"
+                android:transitionName="example_transition4"
+                app:srcCompat="@drawable/ic_types_of_testing"
                 tools:ignore="ImageContrastCheck" />
 
             <ScrollView
@@ -50,7 +50,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical" >
+                    android:orientation="vertical">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -78,7 +78,7 @@
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
-                            android:text="@string/verificationAndValidation"
+                            android:text="@string/smokeTesting"
                             android:textAlignment="center"
                             android:textColor="#234B65"
                             android:textSize="24sp"
@@ -114,7 +114,7 @@
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
-                            android:text="@string/softwareQuality"
+                            android:text="@string/InternationalizationAndLocalization"
                             android:textAlignment="center"
                             android:textColor="#234B65"
                             android:textSize="24sp"
@@ -150,7 +150,7 @@
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
-                            android:text="@string/webTesting"
+                            android:text="@string/configurationTesting"
                             android:textAlignment="center"
                             android:textColor="#234B65"
                             android:textSize="24sp"
@@ -186,7 +186,7 @@
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
-                            android:text="@string/roleOfTesting"
+                            android:text="@string/nonFunctionalTesting"
                             android:textAlignment="center"
                             android:textColor="#234B65"
                             android:textSize="24sp"
@@ -222,7 +222,7 @@
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
-                            android:text="@string/whyTestingIsNecessary"
+                            android:text="@string/regressionTesting"
                             android:textAlignment="center"
                             android:textColor="#234B65"
                             android:textSize="24sp"
@@ -259,7 +259,7 @@
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
-                            android:text="@string/WhatIsSoftwareTesting"
+                            android:text="@string/stressTesting"
                             android:textAlignment="center"
                             android:textColor="#234B65"
                             android:textSize="24sp"
@@ -295,7 +295,7 @@
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
-                            android:text="@string/WhoIsTesting"
+                            android:text="@string/securityTesting"
                             android:textAlignment="center"
                             android:textColor="#234B65"
                             android:textSize="24sp"
@@ -331,7 +331,7 @@
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
-                            android:text="@string/startAndExit"
+                            android:text="@string/interactionTesting"
                             android:textAlignment="center"
                             android:textColor="#234B65"
                             android:textSize="24sp"
@@ -367,7 +367,7 @@
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
-                            android:text="@string/testGoals"
+                            android:text="@string/documentationTesting"
                             android:textAlignment="center"
                             android:textColor="#234B65"
                             android:textSize="24sp"
@@ -403,7 +403,7 @@
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
-                            android:text="@string/WhereDoErrorsComeFrom"
+                            android:text="@string/testingForFailureAndRecovery"
                             android:textAlignment="center"
                             android:textColor="#234B65"
                             android:textSize="24sp"
@@ -439,7 +439,7 @@
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
-                            android:text="@string/costOfDefects"
+                            android:text="@string/performanceTesting"
                             android:textAlignment="center"
                             android:textColor="#234B65"
                             android:textSize="24sp"
@@ -475,7 +475,7 @@
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
-                            android:text="@string/fundamentalProcess"
+                            android:text="@string/buildTesting"
                             android:textAlignment="center"
                             android:textColor="#234B65"
                             android:textSize="24sp"
@@ -511,7 +511,7 @@
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
-                            android:text="@string/TestingPrinciples"
+                            android:text="@string/installationTesting"
                             android:textAlignment="center"
                             android:textColor="#234B65"
                             android:textSize="24sp"
@@ -547,7 +547,7 @@
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
-                            android:text="@string/TestersVocabulary"
+                            android:text="@string/functionalTesting"
                             android:textAlignment="center"
                             android:textColor="#234B65"
                             android:textSize="24sp"
@@ -583,7 +583,7 @@
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
-                            android:text="@string/PsychologyOfTesting"
+                            android:text="@string/usability"
                             android:textAlignment="center"
                             android:textColor="#234B65"
                             android:textSize="24sp"
@@ -593,7 +593,6 @@
 
                     </LinearLayout>
                 </LinearLayout>
-            </ScrollView
-                >
+            </ScrollView>
         </LinearLayout>
     </RelativeLayout>
