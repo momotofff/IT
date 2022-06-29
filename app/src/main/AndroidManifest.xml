@@ -14,6 +14,135 @@
         android:theme="@style/Theme.IT"
         tools:targetApi="31">
         <activity
+            android:name=".qa4.QA4_15"
+            android:exported="false" />
+        <activity
+            android:name=".qa4.QA4_14"
+            android:exported="false" />
+        <activity
+            android:name=".qa4.QA4_13"
+            android:exported="false" />
+        <activity
+            android:name=".qa4.QA4_12"
+            android:exported="false" />
+        <activity
+            android:name=".qa4.QA4_11"
+            android:exported="false" />
+        <activity
+            android:name=".qa4.QA4_10"
+            android:exported="false" />
+        <activity
+            android:name=".qa4.QA4_9"
+            android:exported="false" />
+        <activity
+            android:name=".qa4.QA4_8"
+            android:exported="false" />
+        <activity
+            android:name=".qa4.QA4_7"
+            android:exported="false" />
+        <activity
+            android:name=".qa4.QA4_6"
+            android:exported="false" />
+        <activity
+            android:name=".qa4.QA4_4"
+            android:exported="false" />
+        <activity
+            android:name=".qa4.QA4_5"
+            android:exported="false" />
+        <activity
+            android:name=".qa4.QA4_3"
+            android:exported="false" />
+        <activity
+            android:name=".qa4.QA4_2"
+            android:exported="false" />
+        <activity
+            android:name=".qa4.QA4_1"
+            android:exported="false" />
+        <activity
+            android:name=".qa5.QA5_3"
+            android:exported="false" />
+        <activity
+            android:name=".qa5.QA5_2"
+            android:exported="false" />
+        <activity
+            android:name=".qa5.QA5_1"
+            android:exported="false" />
+        <activity
+            android:name=".qa3.QA3_4"
+            android:exported="false" />
+        <activity
+            android:name=".qa3.QA3_3"
+            android:exported="false" />
+        <activity
+            android:name=".qa3.QA3_2"
+            android:exported="false" />
+        <activity
+            android:name=".qa3.QA3_1"
+            android:exported="false" />
+        <activity
+            android:name=".qa2.QA2_6"
+            android:exported="false" />
+        <activity
+            android:name=".qa2.QA2_5"
+            android:exported="false" />
+        <activity
+            android:name=".qa2.QA2_4"
+            android:exported="false" />
+        <activity
+            android:name=".qa2.QA2_3"
+            android:exported="false" />
+        <activity
+            android:name=".qa2.QA2_2"
+            android:exported="false" />
+        <activity
+            android:name=".qa2.QA2_1"
+            android:exported="false" />
+        <activity
+            android:name=".qa1.QA1_15"
+            android:exported="false" />
+        <activity
+            android:name=".qa1.QA1_14"
+            android:exported="false" />
+        <activity
+            android:name=".qa1.QA1_13"
+            android:exported="false" />
+        <activity
+            android:name=".qa1.QA1_12"
+            android:exported="false" />
+        <activity
+            android:name=".qa1.QA1_11"
+            android:exported="false" />
+        <activity
+            android:name=".qa1.QA1_10"
+            android:exported="false" />
+        <activity
+            android:name=".qa1.QA1_9"
+            android:exported="false" />
+        <activity
+            android:name=".qa1.QA1_8"
+            android:exported="false" />
+        <activity
+            android:name=".qa1.QA1_7"
+            android:exported="false" />
+        <activity
+            android:name=".qa1.QA1_6"
+            android:exported="false" />
+        <activity
+            android:name=".qa1.QA1_5"
+            android:exported="false" />
+        <activity
+            android:name=".qa1.QA1_4"
+            android:exported="false" />
+        <activity
+            android:name=".qa1.QA1_3"
+            android:exported="false" />
+        <activity
+            android:name=".qa1.QA1_2"
+            android:exported="false" />
+        <activity
+            android:name=".qa1.QA1_1"
+            android:exported="false" />
+        <activity
             android:name=".QA5"
             android:exported="false" />
         <activity

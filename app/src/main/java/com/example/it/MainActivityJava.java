@@ -3,8 +3,6 @@ package com.example.it;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-
-
 public class MainActivityJava extends AppCompatActivity {
 
     @Override

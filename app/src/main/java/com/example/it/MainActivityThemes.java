@@ -40,19 +40,22 @@ public class MainActivityThemes extends AppCompatActivity implements View.OnClic
     {
         switch (view.getId())
         {
-            case R.id.qa_Button:Intent intent = new Intent(MainActivityThemes.this, MainActivityQAInside.class);
-                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivityThemes.this, ivQa, Objects.requireNonNull(ViewCompat.getTransitionName(ivQa)));
-                startActivity(intent, options.toBundle());
-                break;
-
-            case R.id.java_Button:Toast toast = Toast.makeText(MainActivityThemes.this, R.string.in_development, Toast.LENGTH_SHORT);
+            case R.id.qa_Button:
+                animationForStartActivity(MainActivityQAInside.class, ivQa); break;
+            case R.id.java_Button:
+            case R.id.patterns_button:
+            {
+                Toast toast = Toast.makeText(MainActivityThemes.this, R.string.in_development, Toast.LENGTH_SHORT);
                 toast.show();
                 break;
-            case R.id.patterns_button:toast = Toast.makeText(MainActivityThemes.this, R.string.in_development, Toast.LENGTH_SHORT);
-                toast.show();
-                break;
+            }
         }
-
     }
 
+    private void animationForStartActivity(Class qa, ImageView iv)
+    {
+        Intent intent = new Intent(MainActivityThemes.this, qa);
+        ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivityThemes.this, iv, Objects.requireNonNull(ViewCompat.getTransitionName(iv)));
+        startActivity(intent, options.toBundle());
+    }
 }

@@ -68,7 +68,7 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView56у75"
+                            android:id="@+id/lifeCycle"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
@@ -104,7 +104,7 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView556у75"
+                            android:id="@+id/developmentStages"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
@@ -140,7 +140,7 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView5675"
+                            android:id="@+id/webTesting"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
@@ -157,9 +157,7 @@
                             android:textStyle="bold|italic"
                             app:autoSizeTextType="none"
                             tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
-
                     </LinearLayout>
-
                 </LinearLayout>
             </ScrollView>
         </LinearLayout>
