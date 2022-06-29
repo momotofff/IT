@@ -68,13 +68,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView56у75"
+                            android:id="@+id/lifeCycle"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -104,13 +103,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView556у75"
+                            android:id="@+id/developmentStages"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -140,13 +138,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView5675"
+                            android:id="@+id/vModel"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -176,13 +173,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textVw26iew1"
+                            android:id="@+id/IterativeModel"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -212,13 +208,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/t74extView"
+                            android:id="@+id/waterfallModel"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -249,13 +244,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView3459"
+                            android:id="@+id/spiralModel"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -266,9 +260,7 @@
                             android:textStyle="bold|italic"
                             app:autoSizeTextType="none"
                             tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
-
                     </LinearLayout>
-
                 </LinearLayout>
             </ScrollView>
         </LinearLayout>

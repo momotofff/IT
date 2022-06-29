@@ -73,13 +73,12 @@
                     android:layout_marginStart="10dp"
                     android:layout_weight="1"
                     android:background="#3EFFFFFF"
-                    android:contentDescription="@string/in_development"
                     android:elevation="10dp"
                     android:focusable="true"
                     android:scaleType="centerInside"
                     android:transitionName="example_transition1"
                     app:srcCompat="@drawable/ic_basics"
-                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+                    tools:ignore="ContentDescription,DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
 
             </LinearLayout>
 
@@ -105,12 +104,11 @@
                     android:layout_marginStart="10dp"
                     android:layout_weight="1"
                     android:background="#3EFFFFFF"
-                    android:contentDescription="@string/in_development"
                     android:elevation="10dp"
-                    android:transitionName="example_transition2"
                     android:scaleType="centerInside"
+                    android:transitionName="example_transition2"
                     app:srcCompat="@drawable/ic_qa_in_software_development"
-                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+                    tools:ignore="ContentDescription,DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
 
             </LinearLayout>
 
@@ -136,12 +134,11 @@
                     android:layout_marginStart="10dp"
                     android:layout_weight="1"
                     android:background="#3EFFFFFF"
-                    android:contentDescription="@string/in_development"
                     android:elevation="10dp"
                     android:scaleType="centerInside"
                     android:transitionName="example_transition3"
                     app:srcCompat="@drawable/ic_test_levels"
-                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+                    tools:ignore="ContentDescription,DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
 
             </LinearLayout>
 
@@ -167,12 +164,11 @@
                     android:layout_marginStart="10dp"
                     android:layout_weight="1"
                     android:background="#3EFFFFFF"
-                    android:contentDescription="@string/in_development"
                     android:elevation="10dp"
                     android:transitionName="example_transition4"
                     android:scaleType="centerInside"
                     app:srcCompat="@drawable/ic_types_of_testing"
-                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+                    tools:ignore="ContentDescription,DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
 
             </LinearLayout>
 
@@ -198,16 +194,12 @@
                     android:layout_marginStart="10dp"
                     android:layout_weight="1"
                     android:background="#3EFFFFFF"
-                    android:contentDescription="@string/in_development"
                     android:elevation="10dp"
                     android:scaleType="centerInside"
                     android:transitionName="example_transition5"
                     app:srcCompat="@drawable/ic_types_of_testing2"
-                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
-
+                    tools:ignore="ContentDescription,DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
             </LinearLayout>
-
         </LinearLayout>
-
     </LinearLayout>
 </RelativeLayout>

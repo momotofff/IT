@@ -68,13 +68,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView56у75"
+                            android:id="@+id/smokeTesting"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -104,13 +103,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView556у75"
+                            android:id="@+id/InternationalizationAndLocalization"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -140,13 +138,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView5675"
+                            android:id="@+id/configurationTesting"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -176,13 +173,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textVw26iew1"
+                            android:id="@+id/nonFunctionalTesting"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -212,13 +208,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/t74extView"
+                            android:id="@+id/regressionTesting"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -249,13 +244,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView3459"
+                            android:id="@+id/stressTesting"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -285,13 +279,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView8"
+                            android:id="@+id/securityTesting"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -321,13 +314,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView9"
+                            android:id="@+id/interactionTesting"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -357,13 +349,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView845"
+                            android:id="@+id/documentationTesting"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -393,13 +384,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView7"
+                            android:id="@+id/testingForFailureAndRecovery"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -429,13 +419,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView3"
+                            android:id="@+id/performanceTesting"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -465,13 +454,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView357"
+                            android:id="@+id/buildTesting"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -501,13 +489,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView"
+                            android:id="@+id/installationTesting"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -537,13 +524,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView1"
+                            android:id="@+id/functionalTesting"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -573,13 +559,12 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
-                            android:id="@+id/textView5"
+                            android:id="@+id/usability"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:background="#3EFFFFFF"
-                            android:contentDescription="@string/in_development"
                             android:elegantTextHeight="true"
                             android:elevation="10dp"
                             android:scaleType="centerInside"
@@ -590,7 +575,6 @@
                             android:textStyle="bold|italic"
                             app:autoSizeTextType="none"
                             tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
-
                     </LinearLayout>
                 </LinearLayout>
             </ScrollView>
