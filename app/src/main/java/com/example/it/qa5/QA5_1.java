@@ -6,10 +6,12 @@ import android.os.Bundle;
 
 import com.example.it.R;
 
-public class QA5_1 extends AppCompatActivity {
+public class QA5_1 extends AppCompatActivity
+{
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_qa51);
     }
