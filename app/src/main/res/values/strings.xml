@@ -67,24 +67,24 @@
 
 
     <string name="verificationAndValidation">Верификация и валидация</string>
-    <string name="verificationAndValidationText">Эти два понятия тесно связаны с процессами тестирования и обеспечения качества. К сожалению, их часто путают, хотя отличия между ними достаточно существенны.</string>
-    <string name="verificationAndValidationText1">Верификация (Verification) — это статическая практика проверки документов, дизайна, архитектуры, кода, т.д.</string>
-    <string name="verificationAndValidationText2">Верификация — это процесс включающий в себя проверку Plans, Requirement Specifications, Design Specifications, Code, Test Cases, Chek-Lists, etc.</string>
-    <string name="verificationAndValidationText3">Верификация всегда проходит без запуска кода.</string>
-    <string name="verificationAndValidationText4">Верификация использует методы — reviews, walkthroughs, inspections, etc.</string>
-    <string name="verificationAndValidationText5">Верификация отвечает на вопрос “Делаем ли мы продукт правильно?”</string>
-    <string name="verificationAndValidationText6">Верификация поможет определить, является ли программное обеспечение высокого качества, но оно не гарантирует, что система полезна.</string>
-    <string name="verificationAndValidationText7">Проверка связана с тем, что система хорошо спроектирована и безошибочна.</string>
-    <string name="verificationAndValidationText8">Верификация происходит до Validation.</string>
-    <string name="verificationAndValidationText9">Она содержит все активности которые позволяют достигнуть высокого качества программного обеспечения.</string>
-    <string name="verificationAndValidationText10">Валидация (validation) – это процесс оценки конечного продукта, необходимо проверить, соответствует ли программное обеспечение ожиданиям и требованиям клиента. Это динамический механизм проверки и тестирования фактического продукта.</string>
-    <string name="verificationAndValidationText11">Валидация всегда включает в себя запуск кода программы.</string>
-    <string name="verificationAndValidationText12">Валидация использует методы, такие как тестирование Black Box, тестирование White Box и нефункциональное тестирование.</string>
-    <string name="verificationAndValidationText13">Валидация отвечает на вопрос “Делаем ли мы правильный продукт?”.</string>
-    <string name="verificationAndValidationText14">Валидация проверяет, соответствует ли программное обеспечение требованиям и ожиданиям клиента.</string>
-    <string name="verificationAndValidationText15">Валидация может найти ошибки, которые процесс Verification не может поймать.</string>
-    <string name="verificationAndValidationText16">Валидация происходит после Verification.</string>
-    <string name="verificationAndValidationText17">На практике, отличия верификации и валидации имеют большое значение: заказчика интересует в большей степени валидация (удовлетворение собственных требований); исполнителя, в свою очередь, волнует не только соблюдение всех норм качества (верификация) при реализации продукта, а и соответствие всех особенностей продукта желаниям заказчика.</string>
+    <string name="verificationAndValidationText">    Эти два понятия тесно связаны с процессами тестирования и обеспечения качества. К сожалению, их часто путают, хотя отличия между ними достаточно существенны.</string>
+    <string name="verificationAndValidationText1">    Верификация (Verification) — это статическая практика проверки документов, дизайна, архитектуры, кода, т.д.</string>
+    <string name="verificationAndValidationText2">    Верификация — это процесс включающий в себя проверку Plans, Requirement Specifications, Design Specifications, Code, Test Cases, Chek-Lists, etc.</string>
+    <string name="verificationAndValidationText3">    Верификация всегда проходит без запуска кода.</string>
+    <string name="verificationAndValidationText4">    Верификация использует методы — reviews, walkthroughs, inspections, etc.</string>
+    <string name="verificationAndValidationText5">    Верификация отвечает на вопрос “Делаем ли мы продукт правильно?”</string>
+    <string name="verificationAndValidationText6">    Верификация поможет определить, является ли программное обеспечение высокого качества, но оно не гарантирует, что система полезна.</string>
+    <string name="verificationAndValidationText7">    Проверка связана с тем, что система хорошо спроектирована и безошибочна.</string>
+    <string name="verificationAndValidationText8">    Верификация происходит до Validation.</string>
+    <string name="verificationAndValidationText9">    Она содержит все активности которые позволяют достигнуть высокого качества программного обеспечения.</string>
+    <string name="verificationAndValidationText10">    Валидация (validation) – это процесс оценки конечного продукта, необходимо проверить, соответствует ли программное обеспечение ожиданиям и требованиям клиента. Это динамический механизм проверки и тестирования фактического продукта.</string>
+    <string name="verificationAndValidationText11">    Валидация всегда включает в себя запуск кода программы.</string>
+    <string name="verificationAndValidationText12">    Валидация использует методы, такие как тестирование Black Box, тестирование White Box и нефункциональное тестирование.</string>
+    <string name="verificationAndValidationText13">    Валидация отвечает на вопрос “Делаем ли мы правильный продукт?”.</string>
+    <string name="verificationAndValidationText14">    Валидация проверяет, соответствует ли программное обеспечение требованиям и ожиданиям клиента.</string>
+    <string name="verificationAndValidationText15">    Валидация может найти ошибки, которые процесс Verification не может поймать.</string>
+    <string name="verificationAndValidationText16">    Валидация происходит после Verification.</string>
+    <string name="verificationAndValidationText17">    На практике, отличия верификации и валидации имеют большое значение: заказчика интересует в большей степени валидация (удовлетворение собственных требований); исполнителя, в свою очередь, волнует не только соблюдение всех норм качества (верификация) при реализации продукта, а и соответствие всех особенностей продукта желаниям заказчика.</string>
 
     <string name="softwareQuality">Качество ПО (ISO/IEC 25010)</string>
     <string name="softwareQualityText">Серия международных стандартов ISO/IEC 25000, также известных как SQuaRE (System and Software Quality Requirements and Evaluation), определяет характеристики, по которым оценивается качество программного продукта. Обновленный стандарт ISO/IEC 25010 содержит терминологию для определения, измерения и оценки качества систем и программных продуктов. Он представляет восемь характеристик качества программного обеспечения, среди которых:</string>
@@ -95,7 +95,7 @@
     <string name="softwareQualityText5">- надежность.</string>
     <string name="softwareQualityText6">- безопасность.</string>
     <string name="softwareQualityText7">- удобство сопровождения.</string>
-    <string name="softwareQualityText8"> -портативность.</string>
+    <string name="softwareQualityText8">- портативность.</string>
     <string name="softwareQualityText9">- Стандарт ISO/IEC 25010 является серьезным пересмотром стандарта ISO/IEC 9126. В новый стандарт добавлены дополнительные характеристики и подхарактеристики, которые более подробно описывают процесс качества программного продукта, а также введены уточнения и перегруппировка характеристик для более ясного их понимания. Более детально ознакомиться с обновлённым стандартом можно в презентации далее.</string>
 
     <string name="webTesting">Тестирование веб-проектов</string>
