@@ -35,6 +35,7 @@
             android:id="@+id/qa_view_1_1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="5dp"
             android:layout_weight="20"
             android:background="#00FFFFFF"
             android:elegantTextHeight="true"
@@ -59,17 +60,197 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/qa_view_1_2"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:text="@string/manualAndAutomatedText"
-                    android:textAlignment="textStart"
-                    android:textColor="#154177"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#00FFFFFF"
+                    android:text="@string/manualAndAutomatedText1"
+                    android:textColor="#11325A"
                     android:textSize="24sp"
-                    android:textStyle="bold"
-                    app:autoSizeTextType="uniform" />
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+                <TextView
+                    android:id="@+id/qa_view_1_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#00FFFFFF"
+                    android:text="@string/manualAndAutomatedText2"
+                    android:textColor="#11325A"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+                <TextView
+                    android:id="@+id/qa_view_1_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#00FFFFFF"
+                    android:text="@string/manualAndAutomatedText3"
+                    android:textColor="#11325A"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+                <TextView
+                    android:id="@+id/qa_view_1_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#00FFFFFF"
+                    android:text="@string/manualAndAutomatedText4"
+                    android:textColor="#11325A"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+                <TextView
+                    android:id="@+id/qa_view_1_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#00FFFFFF"
+                    android:text="@string/manualAndAutomatedText5"
+                    android:textColor="#11325A"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+                <TextView
+                    android:id="@+id/qa_view_1_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#00FFFFFF"
+                    android:text="@string/manualAndAutomatedText6"
+                    android:textColor="#11325A"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+                <TextView
+                    android:id="@+id/qa_view_1_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#00FFFFFF"
+                    android:text="@string/manualAndAutomatedText7"
+                    android:textColor="#11325A"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+                <TextView
+                    android:id="@+id/qa_view_1_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#00FFFFFF"
+                    android:text="@string/manualAndAutomatedText8"
+                    android:textColor="#11325A"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+                <TextView
+                    android:id="@+id/qa_view_1_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#00FFFFFF"
+                    android:text="@string/manualAndAutomatedText9"
+                    android:textColor="#11325A"
+                    android:textSize="24sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+                <TextView
+                    android:id="@+id/qa_view_1_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#00FFFFFF"
+                    android:text="@string/manualAndAutomatedText10"
+                    android:textColor="#11325A"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+                <TextView
+                    android:id="@+id/qa_view_1_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#00FFFFFF"
+                    android:text="@string/manualAndAutomatedText11"
+                    android:textColor="#11325A"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+                <TextView
+                    android:id="@+id/qa_view_1_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#00FFFFFF"
+                    android:text="@string/manualAndAutomatedText12"
+                    android:textColor="#11325A"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+                <TextView
+                    android:id="@+id/qa_view_1_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#00FFFFFF"
+                    android:text="@string/manualAndAutomatedText13"
+                    android:textColor="#11325A"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+                <TextView
+                    android:id="@+id/qa_view_1_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#00FFFFFF"
+                    android:text="@string/manualAndAutomatedText14"
+                    android:textColor="#11325A"
+                    android:textSize="24sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+                <TextView
+                    android:id="@+id/qa_view_1_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#00FFFFFF"
+                    android:text="@string/manualAndAutomatedText15"
+                    android:textColor="#11325A"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+                <TextView
+                    android:id="@+id/qa_view_1_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#00FFFFFF"
+                    android:text="@string/manualAndAutomatedText16"
+                    android:textColor="#11325A"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
             </LinearLayout>
         </ScrollView>
     </LinearLayout>
