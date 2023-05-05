@@ -27,6 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:padding="5dp"
         app:layout_constraintStart_toStartOf="@id/themes_image"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -38,10 +39,15 @@
             android:layout_weight="20"
             android:background="#00FFFFFF"
             android:elegantTextHeight="true"
+            android:padding="5dp"
             android:scaleType="centerInside"
+            android:shadowColor="@color/shadow"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
             android:text="@string/verificationAndValidation"
             android:textAlignment="center"
-            android:textColor="#154177"
+            android:textColor="@color/buttonColorsBlue"
             android:textSize="34sp"
             android:textStyle="bold|italic"
             android:transitionName="example_transition1_1"
@@ -62,162 +68,251 @@
                     android:id="@+id/textView1_1_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
                     android:text="@string/verificationAndValidationText"
                     android:textAlignment="textStart"
-                    android:textColor="#0E2C50"
+                    android:textColor="@color/textColor"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/textView1_1_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
                     android:text="@string/verificationAndValidationText1"
                     android:textAlignment="textStart"
-                    android:textColor="#0E2C50"
+                    android:textColor="@color/textColor"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/textView1_1_3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
                     android:text="@string/verificationAndValidationText2"
                     android:textAlignment="textStart"
-                    android:textColor="#0E2C50"
+                    android:textColor="@color/textColor"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/textView1_1_4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
                     android:text="@string/verificationAndValidationText3"
                     android:textAlignment="textStart"
-                    android:textColor="#0E2C50"
+                    android:textColor="@color/textColor"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/textView1_1_5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
                     android:text="@string/verificationAndValidationText4"
                     android:textAlignment="textStart"
-                    android:textColor="#0E2C50"
+                    android:textColor="@color/textColor"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/textView1_1_6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
                     android:text="@string/verificationAndValidationText5"
                     android:textAlignment="textStart"
-                    android:textColor="#0E2C50"
+                    android:textColor="@color/textColor"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/textView1_1_7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
                     android:text="@string/verificationAndValidationText6"
                     android:textAlignment="textStart"
-                    android:textColor="#0E2C50"
+                    android:textColor="@color/textColor"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/textView1_1_8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
                     android:text="@string/verificationAndValidationText7"
                     android:textAlignment="textStart"
-                    android:textColor="#0E2C50"
+                    android:textColor="@color/textColor"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/textView1_1_9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
                     android:text="@string/verificationAndValidationText8"
                     android:textAlignment="textStart"
-                    android:textColor="#0E2C50"
+                    android:textColor="@color/textColor"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/textView1_1_10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
                     android:text="@string/verificationAndValidationText9"
                     android:textAlignment="textStart"
-                    android:textColor="#0E2C50"
+                    android:textColor="@color/textColor"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/textView1_1_11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
                     android:text="@string/verificationAndValidationText10"
                     android:textAlignment="textStart"
-                    android:textColor="#0E2C50"
+                    android:textColor="@color/textColor"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/textView1_1_12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
                     android:text="@string/verificationAndValidationText11"
                     android:textAlignment="textStart"
-                    android:textColor="#0E2C50"
+                    android:textColor="@color/textColor"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/textView1_1_13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
                     android:text="@string/verificationAndValidationText12"
                     android:textAlignment="textStart"
-                    android:textColor="#0E2C50"
+                    android:textColor="@color/textColor"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/textView1_1_14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
                     android:text="@string/verificationAndValidationText13"
                     android:textAlignment="textStart"
-                    android:textColor="#0E2C50"
+                    android:textColor="@color/textColor"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/textView1_1_15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
                     android:text="@string/verificationAndValidationText14"
                     android:textAlignment="textStart"
-                    android:textColor="#0E2C50"
+                    android:textColor="@color/textColor"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/textView1_1_16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
                     android:text="@string/verificationAndValidationText15"
                     android:textAlignment="textStart"
-                    android:textColor="#0E2C50"
+                    android:textColor="@color/textColor"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/textView1_1_17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
                     android:text="@string/verificationAndValidationText16"
                     android:textAlignment="textStart"
-                    android:textColor="#0E2C50"
+                    android:textColor="@color/textColor"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/textView1_1_18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
                     android:text="@string/verificationAndValidationText17"
                     android:textAlignment="textStart"
-                    android:textColor="#0E2C50"
+                    android:textColor="@color/textColor"
                     android:textSize="20sp" />
 
             </LinearLayout>

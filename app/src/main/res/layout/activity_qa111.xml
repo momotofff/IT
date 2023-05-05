@@ -24,9 +24,11 @@
         tools:ignore="MissingConstraints,ImageContrastCheck" />
 
     <LinearLayout
+        android:id="@+id/padd"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:padding="5dp"
         app:layout_constraintStart_toStartOf="@id/themes_image"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -38,7 +40,12 @@
             android:layout_weight="20"
             android:background="#00FFFFFF"
             android:elegantTextHeight="true"
+            android:padding="5dp"
             android:scaleType="centerInside"
+            android:shadowColor="@color/shadow"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
             android:text="@string/costOfDefects"
             android:textAlignment="center"
             android:textColor="#154177"
@@ -59,16 +66,44 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/textView1_11_"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/costOfDefectsText"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <ImageView
+                    android:id="@+id/themes_image2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="1"
+                    android:background="@drawable/ic_logojhtext"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="@id/textView1_11_"
+                    tools:ignore="ImageContrastCheck"
+                    android:contentDescription="TODO" />
+
+                <TextView
                     android:id="@+id/textView1_11_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:text="@string/costOfDefectsText"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/costOfDefectsText2"
                     android:textAlignment="textStart"
-                    android:textColor="#154177"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
                     app:autoSizeTextType="uniform" />
             </LinearLayout>
         </ScrollView>

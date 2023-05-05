@@ -34,7 +34,6 @@
         <item>Свойство качественных тест-кейсов №7 (Ожидаемый результат для каждого шага тест-кейса). Бывает, встречаются тест-кейсы, в которых ожидаемый результат указывается только после последнего шага. Эта методика написания тест-кейсов снижает их эффективность, поскольку отсутствие результатов для первых шагов не дает чёткого понимания, как должно вести себя приложение или программа при их прохождении.</item>
     </string-array>
 
-
     <string name="in_development">В разработке</string>
     <string name="TestGoals">Цели тестирования</string>
     <string name="lifeCycle">Жизненный цикл ПО</string>
@@ -366,7 +365,7 @@
 
     <string name="TestersVocabulary">Словарь тестировщика</string>
     <string name="TestersVocabularyText">Когда Вы начинаете работать в ИТ-сфере, часто сталкиваетесь с ситуацией непонимания некоторых слов и терминов. Чтобы облегчить ваш «вход» в ИТ, сделать его более понятным и комфортным, тренинг-центр QALight подготовил базовый перечень терминов, которые чаще всего используют тестировщики.</string>
-    <string name="TestersVocabularyText1">ОБЩИЕ ТЕРМИНЫ</string>
+    <string name="TestersVocabularyText1">ОБЩИЕ ТЕРМИНЫ:</string>
     <string name="TestersVocabularyText2">Автоматизированное тестирование (Automated testing) — процесс тестирования программного обеспечения, используя специальные программы.</string>
     <string name="TestersVocabularyText3">Альфа-тестирование (Alpha testing) — имитация реальной работы с системой разработчиками, или же реальная работа потенциальных пользователей на ранней стадии разработки продукта.</string>
     <string name="TestersVocabularyText4">Анализ предельных значений (Boundary Value Analysis) — техника проверки поведения продукта на предельных значениях (поля, записи, файлы и т.п.).</string>
@@ -437,21 +436,21 @@
     <string name="TestersVocabularyText69">UX (user experience) — ощущения, возникающие у пользователя при взаимодействии с продуктом.</string>
     <string name="TestersVocabularyText70">V-модель (v-model) — модель, на каждом этапе которой осуществляется контроль текущего процесса для того, чтобы убедиться в возможности перехода на следующий уровень.</string>
     <string name="TestersVocabularyText71">Z-конфликт (Z-fighting) — наложение текстур друг на друга.</string>
-    <string name="TestersVocabularyText72">ТИПЫ ТЕСТИРОВАНИЯ</string>
+    <string name="TestersVocabularyText72">ТИПЫ ТЕСТИРОВАНИЯ:</string>
     <string name="TestersVocabularyText73">Мобильное тестирование — тестирование мобильных приложений.</string>
     <string name="TestersVocabularyText74">Консольное тестирования — тестирование приложений для консолей.</string>
     <string name="TestersVocabularyText75">Веб-тестирование — тестирование браузерных приложений.</string>
-    <string name="TestersVocabularyText76">ТИПЫ ТЕСТИРОВАНИЯ ПО ЗАПУСКУ КОДА НА ВЫПОЛНЕНИЕ</string>
+    <string name="TestersVocabularyText76">ТИПЫ ТЕСТИРОВАНИЯ ПО ЗАПУСКУ КОДА НА ВЫПОЛНЕНИЕ:</string>
     <string name="TestersVocabularyText77">Статическое (Static testing) — тип тестирования, который предполагает, что программный код во время тестирования не будет выполняться.</string>
     <string name="TestersVocabularyText78">Динамическое (Dynamic testing) — тип тестирования, который предусматривает запуск программного кода.</string>
-    <string name="TestersVocabularyText79">ТИПЫ ТЕСТИРОВАНИЯ ПО ДОСТУПУ К КОДУ</string>
+    <string name="TestersVocabularyText79">ТИПЫ ТЕСТИРОВАНИЯ ПО ДОСТУПУ К КОДУ:</string>
     <string name="TestersVocabularyText80">Black box — тестировщик не знает, как устроена тестируемая система.</string>
     <string name="TestersVocabularyText81">White box — тестировщик знает все детали тестируемой системы.</string>
     <string name="TestersVocabularyText82">Grey box — тестировщик знает только о некоторых особенностях тестируемой системы.</string>
-    <string name="TestersVocabularyText83">ТИПЫ ТЕСТИРОВАНИЯ ПО ПРИНЦИПУ РАБОТЫ С ПРИЛОЖЕНИЯМИ</string>
+    <string name="TestersVocabularyText83">ТИПЫ ТЕСТИРОВАНИЯ ПО ПРИНЦИПУ РАБОТЫ С ПРИЛОЖЕНИЯМИ:</string>
     <string name="TestersVocabularyText84">Положительное тестирования (Positive testing) — процесс тестирования программного обеспечения на то, как оно должно работать.</string>
     <string name="TestersVocabularyText85">Негативное тестирование (Negative testing) — процесс тестирования программного обеспечения на то, как оно не должно работать.</string>
-    <string name="TestersVocabularyText86">ТИПЫ ТЕСТИРОВАНИЯ ПО УРОВНЮ ДЕТАЛИЗАЦИИ ПРИЛОЖЕНИЯ</string>
+    <string name="TestersVocabularyText86">ТИПЫ ТЕСТИРОВАНИЯ ПО УРОВНЮ ДЕТАЛИЗАЦИИ ПРИЛОЖЕНИЯ:</string>
     <string name="TestersVocabularyText87">Интеграционное тестирование — тестирование взаимодействия нескольких элементов системы.</string>
     <string name="TestersVocabularyText88">Системное тестирование — тестирование всего приложения от начала до конца.</string>
     <string name="TestersVocabularyText89">Модульное тестирование — тестирование определенных компонентов системы.</string>
