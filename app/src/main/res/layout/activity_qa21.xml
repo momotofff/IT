@@ -1,9 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".qa2.QA2_1">
+    android:background="#5C5282A0"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context="qa1.QA1_11">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/themes_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.2"
+        android:background="@drawable/ic_logojhtext"
+        android:contentDescription="@string/empty_string"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,ImageContrastCheck" />
+
+    <LinearLayout
+        android:id="@+id/padd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        app:layout_constraintStart_toStartOf="@id/themes_image"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/qa_view_2_1_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:background="#00FFFFFF"
+            android:elegantTextHeight="true"
+            android:padding="5dp"
+            android:scaleType="centerInside"
+            android:shadowColor="@color/shadow"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:text="@string/lifeCycle"
+            android:textAlignment="center"
+            android:textColor="#154177"
+            android:textSize="34sp"
+            android:textStyle="bold|italic"
+            android:transitionName="example_transition1_11"
+            app:autoSizeTextType="uniform"
+            tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2_1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/lifeCycleText"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <ImageView
+                    android:id="@+id/themes_image2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="1"
+                    android:background="@drawable/ic_logojhtext"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="@id/textView1_11_"
+                    tools:ignore="ImageContrastCheck"
+                    android:contentDescription="TODO" />
+
+                <TextView
+                    android:id="@+id/textView2_1_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/lifeCycleText2"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

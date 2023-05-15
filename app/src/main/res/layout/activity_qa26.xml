@@ -1,9 +1,392 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".qa2.QA2_6">
+    android:background="#5C5282A0"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context="qa1.QA1_10">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/themes_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.2"
+        android:background="@drawable/ic_logojhtext"
+        android:contentDescription="@string/empty_string"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,ImageContrastCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="@id/themes_image"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/qa_view_2_6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:background="#00FFFFFF"
+            android:elegantTextHeight="true"
+            android:padding="5dp"
+            android:scaleType="centerInside"
+            android:shadowColor="@color/shadow"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:text="@string/spiralModel"
+            android:textAlignment="center"
+            android:textColor="@color/buttonColorsBlue"
+            android:textSize="34sp"
+            android:textStyle="bold|italic"
+            android:transitionName="example_transition1_10"
+            app:autoSizeTextType="uniform"
+            tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,NestedWeights" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textView2_6_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText1"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText2"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="TextContrastCheck" />
+
+                <TextView
+                    android:id="@+id/textView2_6_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText3"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText4"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText5"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText6"
+                    android:textColor="@color/buttonColorsBlue"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText7"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText8"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText9"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText10"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText11"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText12"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText13"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText14"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText15"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText16"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText17"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText18"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText19"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText20"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText21"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView2_6_22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/spiralModelText22"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
